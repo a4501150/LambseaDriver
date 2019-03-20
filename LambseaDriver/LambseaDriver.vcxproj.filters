@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Driver.c" />
+    <ClCompile Include="FileProtect.c">
+      <Filter>MiniFilter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="FileProtect.h">
+      <Filter>MiniFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessProtect.h">
+      <Filter>ObRegProcessProtect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MiniFilter">
+      <UniqueIdentifier>{47941aef-fcb0-4668-8313-4618ccbd97b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObRegProcessProtect">
+      <UniqueIdentifier>{ba1ed8e1-2d91-4b5b-a7d8-a8766ed7e474}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
